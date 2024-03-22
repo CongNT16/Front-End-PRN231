@@ -74,7 +74,7 @@ const Login = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username: username, password: password }),
         };
-        await fetch('http://localhost:5277/User/login', requestOptions)
+        await fetch('https://vietprn2311-001-site1.ftempurl.com/User/login', requestOptions)
             .then((response) => {
                 console.log(response);
                 return response.json();

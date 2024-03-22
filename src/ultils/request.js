@@ -2,7 +2,7 @@ import axios from 'axios';
 import { refresh } from './Authentication';
 
 const request = axios.create({
-    baseURL: 'http://localhost:5277/',
+    baseURL: 'https://vietprn2311-001-site1.ftempurl.com/',
 });
 
 export const refreshToken = async (body, headers) => {
